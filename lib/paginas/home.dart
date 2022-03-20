@@ -1,7 +1,6 @@
 import 'package:actividad_unidad2/contantes/const.dart';
 import 'package:actividad_unidad2/paginas/index.dart';
 import 'package:flutter/material.dart';
-import 'package:actividad_unidad2/paginas/index.dart';
 import 'package:page_transition/page_transition.dart';
 
 class PaginaPrincipal extends StatefulWidget {
@@ -318,7 +317,7 @@ class _PaginaPrincipalState extends State<PaginaPrincipal> {
                             PageTransition(
                                 alignment: Alignment.bottomCenter,
                                 child: albumPagina(
-                                  animal: Acuaticos[index],
+                                  animal: Terrestres[index],
                                 ),
                                 type: PageTransitionType.scale));
                       },
